@@ -6,4 +6,12 @@ import { Component } from '@angular/core';
   templateUrl: './avatar.html',
   styleUrl: './avatar.css',
 })
-export class Avatar {}
+export class Avatar {
+  nome:string ="Ana";
+
+
+  logout(){
+    //throw new Error ('Method not implemented');
+    console.log('desligou');
+  }
+}

@@ -1,6 +1,6 @@
 .header {
     min-height: 10hv;
-    background: linear-gradient(135deg, #6b87e3, #9d6ed6);
+    background: linear-gradient(135deg, #2a5a63, #8ec0e9);
     display: flex;
     align-items: center;
     padding: 0 20px;
@@ -24,7 +24,7 @@
 }
 
 .links a:hover {
-    color: #090b13;
+    color: #0a0d18;
 }
 
 @media (max-width: 768px) {
