@@ -7,7 +7,9 @@ import { Component } from '@angular/core';
   styleUrl: './avatar.css',
 })
 export class Avatar {
-  nome:string ="Ana";
+  localNome:string ="Ana";
+  localImage!:string ;
+  
 
 
   logout(){
