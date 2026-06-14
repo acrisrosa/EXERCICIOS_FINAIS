@@ -1,5 +1,9 @@
 # ExercReactAna
 
+Instalar luxon devido ao localData
+# npm install luxon
+# npm i --save-dev @types/luxon
+
 npm install firebase
  
 # instalação do firetools
