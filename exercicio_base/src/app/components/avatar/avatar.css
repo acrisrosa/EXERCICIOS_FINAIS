@@ -1,0 +1,53 @@
+
+.avatar-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.avatar {
+    width: 60px;
+    height: 60px;
+    /*Criando a bolinha*/
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.avatar:hover{
+    background: rgba(81, 82, 76, 0.1);
+}
+
+.name {
+    color: aliceblue;
+    font-size: 0.9rem;
+}
+
+button {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5%;
+}
+
+@media (max-width: 760px) {
+    .name {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .avatar-container{
+        flex-direction: column;
+        align-items: center;
+        margin: 5%;
+    }
+
+    .avatar{
+        width: 35px;
+        height: 35px;
+    }
+
+    .name {
+        text-align: center;
+    }
+}
